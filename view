@@ -1,0 +1,212 @@
+<html>
+<title>Life Expectancy Data</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Life</b> Expectancy</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+    <a href="#Data" class="w3-bar-item w3-button">Data</a>
+      <a href="#Trend" class="w3-bar-item w3-button">Trend</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#Relevance" class="w3-bar-item w3-button">Relevance</a>
+      <a href="#More" class="w3-bar-item w3-button">More</a>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+<iframe width="1100" height="900" frameborder="0" scrolling="no" src="//plotly.com/~candice86g/6.embed"></iframe>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+<!-- Data -->
+<div class="w3-container w3-padding-32" id="Data">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Data</h3>
+    <p>We use the data on kaggle (original source: WHO), the date range is from 2000 to 2015, and we have collected various
+     variables related to life expectancy, which are displayed below:
+    </p>
+  </div>
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-container">
+    <img src="space.jpg" alt="Dan" width="90" height="10">
+    <img src="about.jpg" alt="Dan" width="600pt">
+    </div>
+    </div>
+  </div>
+  <!-- Trend Section -->
+  
+  <div class="w3-container w3-padding-32" id="Trend">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Trend</h3>
+    <P>The impact of life expectancy in different years and states.</P>
+  </div>
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Income</div>
+        <iframe width="400" height="300" frameborder="0" scrolling="no" src="//plotly.com/~peggyvega/9.embed"></iframe>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Adult_Mortality</div>
+        <iframe width="400" height="300" frameborder="0" scrolling="no" src="//plotly.com/~peggyvega/3.embed"></iframe>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Percentage Expenditure</div>
+        <iframe width="400" height="300" frameborder="0" scrolling="no" src="//plotly.com/~peggyvega/5.embed"></iframe>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">GDP</div>
+        <iframe width="400" height="300" frameborder="0" scrolling="no" src="//plotly.com/~peggyvega/7.embed"></iframe>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About Life expectancy</h3>
+    <p>Life expectancy is a statistical measure of the average time an organism is expected to live, based on the year of its birth, its current age, and other demographic factors including biological sex. 
+    The most commonly used measure is life expectancy at birth (LEB), which can be defined in two ways. 
+    Cohort LEB is the mean length of life of an actual birth cohort (all individuals born in a given year) and can be computed only for 
+    cohorts born many decades ago so that all their members have died. Period LEB is the mean length of life of a hypothetical cohort
+     assumed to be exposed, from birth through death, to the mortality rates observed at a given year.
+    </p>
+  </div>
+  <div class="w3-container w3-padding-32">
+    <div class="w3-container w3-padding-32">
+    <img src="space.jpg" alt="Dan" width="300" height="2">
+      <img src="export.jpg" alt="Dan" width="600" height="300">
+      <h3>Vaccination rate</h3>
+      <p class="w3-opacity">(2000-2004)&(2011-2015)</p>
+      <p>Here to explore the correlation between vaccination rates and child mortality in different Continent.</p>
+      <iframe width="500" height="400" frameborder="0" scrolling="no" src="//plotly.com/~candice86g/11.embed"></iframe>
+      <iframe width="500" height="400" frameborder="0" scrolling="no" src="//plotly.com/~candice86g/9.embed"></iframe>
+    </div>
+  </div>
+<!-- Relevance Section -->
+<div class="w3-container w3-padding-32" id="Relevance">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Relevance</h3>
+    <p>We use heat maps to study the correlation between variables.</p>
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+    <iframe width="390" height="390" frameborder="0" scrolling="no" src="//plotly.com/~peggyvega/14.embed"></iframe>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+    <img src="space.jpg" alt="Dan" style="width:100%">
+    <h3>Related to social status</h3>
+      <p class="w3-opacity">There are higher relevance of BMI,GDP,Income and Schooling between with life expectancy.</p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+    <iframe width="430" height="430" frameborder="0" scrolling="no" src="//plotly.com/~peggyvega/17.embed"></iframe>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+    <img src="space.jpg" alt="Dan" style="width:100%">
+      <h3>Related to health </h3>
+      <p class="w3-opacity">These variations have negative correlation with life expectancy.</p>
+    </div>
+  </div>
+  <!-- More Section -->
+  <div class="w3-container w3-padding-32" id="More">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">More Data</h3>
+    <p>If you want to get more detailed information about Life expectancy....</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="Country" required name="Country">
+       <!-- 下拉是選單 -->
+       <label for="year">Year</label>
+       <select class="w3-input w3-section w3-border" name="year" id="year">
+           <option value="2000">2000</option>
+           <option value="2001">2001</option>
+           <option value="2002">2002</option>
+           <option value="2003">2003</option>
+           <option value="2004">2004</option>
+           <option value="2005">2005</option>
+           <option value="2006">2006</option>
+           <option value="2007">2007</option>
+           <option value="2008">2008</option>
+           <option value="2009">2009</option>
+           <option value="2010">2010</option>
+           <option value="2011">2011</option>
+           <option value="2012">2012</option>
+           <option value="2013">2013</option>
+           <option value="2014">2014</option>
+           <option value="2015">2015</option>
+       </select>
+
+    <!-- 送出表單按鈕 value:設定按鈕上的文字 -->
+      <!-- <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment"> -->
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> Search
+      </button>
+    </form>
+  </div>
+  
+<!-- Image of location/map -->
+<div class="w3-container">
+
+</div>
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+<!-- Project Section -->
+<div class=" w3-padding-28">
+    <p class="w3-border-bottom w3-border-light-grey w3-padding-16">Reference</p>
+  </div>
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding"><a href="https://www.kaggle.com/" title="kaggle" target="_blank" class="w3-hover-text-green">kaggle</div>
+        <img src="kaggle.png" class="w3-circle" alt="House" style="width:50%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding"><a href="https://www.wikipedia.org/" title="wikipedia" target="_blank" class="w3-hover-text-green">wikipedia</div>
+        <img src="wiki.png" class="w3-circle" alt="House" style="width:40%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding"><a href="https://www.who.int/" title="WHO" target="_blank" class="w3-hover-text-green">WHO</div>
+        <img src="health.jpg" class="w3-circle" alt="House" style="width:50%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding"><a href="https://plotly.com/" title="plotly" target="_blank" class="w3-hover-text-green">plotly</div>
+        <img src="plotly.png" class="w3-circle" alt="House" style="width:34%">
+      </div>
+    </div>
+  </div>
+  
+  </div>
+  
+</footer>
+
+</body>
+</html>
